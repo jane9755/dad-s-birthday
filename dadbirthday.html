@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tribute to My Dad</title>
+  <style>
+    @keyframes glideUp {
+      0% { transform: translateY(100px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes glideLeft {
+      0% { transform: translateX(-100px); opacity: 0; }
+      100% { transform: translateX(0); opacity: 1; }
+    }
+    @keyframes glideRight {
+      0% { transform: translateX(100px); opacity: 0; }
+      100% { transform: translateX(0); opacity: 1; }
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(135deg, #f39c12, #d35400);
+      height: 100vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 2.5rem;
+      animation: glideUp 1s ease-out;
+      position: relative;
+    }
+    .birthday-banner {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: #ff4081;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      animation: glideDown 1s ease-out;
+    }
+    @keyframes glideDown {
+      0% { transform: translateY(-50px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+    section {
+      padding: 50px;
+      min-height: 100vh;
+    }
+    .section1 {
+      background: linear-gradient(135deg, #ffecd2, #fcb69f);
+      animation: glideLeft 1s ease-out;
+    }
+    .section2 {
+      background: linear-gradient(135deg, #c6ffdd, #fbd786, #f7797d);
+      animation: glideRight 1s ease-out;
+    }
+    .section3 {
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      animation: glideLeft 1s ease-out;
+    }
+    .section4 {
+      background: linear-gradient(135deg, #ffd3a5, #fd6585);
+      animation: glideRight 1s ease-out;
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+    .gallery {
+      background: linear-gradient(135deg, #ffe259, #ffa751);
+      text-align: center;
+      animation: glideRight 1s ease-out;
+    }
+    .gallery img {
+      width: 30%;
+      margin: 10px;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 1s ease-out;
+    }
+    .reveal-on-scroll.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .emoji-click {
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .emoji-click:hover {
+      transform: scale(1.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="birthday-banner">🎉 Happy Birthday Daddy! 🎂 You deserve all the love today and always! 🎉</div>
+    <div>
+      <h1>Tribute to My Dad</h1>
+      <p>Welcome to a special place created just for you, Dad.</p>
+    </div>
+  </header>
+
+  <section class="section1 reveal-on-scroll">
+    <h2>From Your Daughter, With Love</h2>
+    <p>Dad, from the very beginning, you have been my greatest supporter and my strongest cheerleader. Through every challenge and every moment of doubt, you have been right there—encouraging me, pushing me to do my best, and reminding me that giving up is never an option.</p>
+    <p>Your love is a steady force that lifts me up when I’m down, and your belief in me has helped shape the person I am today. Even in moments when I felt lost or unsure, a call or a few words from you were enough to wash away my worries and fill me with hope.</p>
+    <p>I can’t fully express how thankful I am to have you by my side. You’re not only my dad—you’re my inspiration, my hero, and my biggest fan.</p>
+    <p>This website is a small way I want to honor you and show you how deeply grateful I am for everything you’ve done and continue to do. It’s my way of saying ‘thank you’ for never giving up on me and for loving me unconditionally. I love you so much, and I hope every time you see this, you feel just how much you mean to me.</p>
+  </section>
+
+  <section class="section2 reveal-on-scroll">
+    <h2>My Dad, My Hero</h2>
+    <p>There are so many moments I wish I could share—times when your support lifted me up, your words gave me strength, and your love never wavered. Every day with you has been a story of encouragement, faith, and unconditional love. This space is dedicated to all those beautiful memories that have shaped who I am today.</p>
+    <p>You mean the world to me, Dad. Thank you for being my rock.</p>
+  </section>
+
+  <section class="section3 reveal-on-scroll">
+    <h2>Sweet Words</h2>
+    <p>Every beat of this site echoes my gratitude and love. You’ve done more than father me—you’ve been my anchor, my guide, my cheerleader, and my safe space.</p>
+    <p>And guess what? This is the very first website I’ve ever built, and it’s all for you. Every scroll, every line, every color was chosen with love.</p>
+    <p>I hope it brings a smile to your face, because you’ve given me a lifetime of smiles.</p>
+    <p>Daddy, your tech baby just built her first website for you o 😌💻. If you see this and smile, abeg show love by sending small money, your baby girl don broke-alert no go bad 😅💖💸</p>
+  </section>
+
+  <section class="section4 reveal-on-scroll">
+    <h2>A Letter From My Heart</h2>
+    <p>Daddy, there are things words will never fully capture, but I’ll try — just so you know how deeply I value you.</p>
+    <p>I’ve watched you give up so much for our sake — dreams, comfort, and even dignity at times — just to make sure we had a chance at the best. You’ve borrowed from those who mocked you… and still showed up with love in your eyes. You’ve chosen us, over and over again.</p>
+    <p>From the very beginning, I’ve been your “delicate one” — with all the health troubles and stress I’ve brought, you never gave up on me. You carried me through the hardest seasons without ever complaining.</p>
+    <p>Even now, a simple daily call from you can change my whole mood. Just hearing your voice brings me peace. That’s why it really hurts when you don’t call or leave my messages unread. Please Daddy, those small things matter to me more than I can explain.</p>
+    <p>Thank you for loving Mum so well. Please keep taking care of her — she gave up so much for us all, and she’s a rare gift to this family.</p>
+    <p>This particular school session has been my toughest yet, and I don’t know what graduation might look like either. But please, even if things don’t turn out exactly how we dreamt — just know I’m giving it my all, and I’ll never stop trying for you and Mum.</p>
+    <p>I want you both to live long and joyfully, to enjoy every fruit of your sacrifice. That’s my heart’s desire.</p>
+    <p>And I pray to God that I become so successful that I can spoil you with peace, comfort, and happiness — just like you’ve always tried to do for us.</p>
+    <p>With all my love,<br>Your little girl 💖</p>
+  </section>
+
+  <section class="gallery reveal-on-scroll">
+    <h2>Gallery</h2>
+    <img src="imageofdad1.jpg" alt="Dad and Me">
+    <img src="imageofdad2.jpg" alt="Family Time">
+    <img src="imageofdad3.jpg" alt="Happy Moments">
+    <p style="margin-top:15px; font-style:italic; color:#eee;">Captured moments that remind me how blessed I am to have you.</p>
+  </section>
+
+  <footer class="reveal-on-scroll">
+    <p>Made with ❤️ by JANE, your loving daughter</p>
+  </footer>
+
+  <script>
+    const revealElements = document.querySelectorAll('.reveal-on-scroll');
+    const scrollTrigger = () => {
+      const triggerBottom = window.innerHeight * 0.85;
+      revealElements.forEach(el => {
+        const boxTop = el.getBoundingClientRect().top;
+        if (boxTop < triggerBottom) {
+          el.classList.add('active');
+        } else {
+          el.classList.remove('active');
+        }
+      });
+    };
+    window.addEventListener('scroll', scrollTrigger);
+    window.addEventListener('load', scrollTrigger);
+  </script>
+</body>
+</html>
